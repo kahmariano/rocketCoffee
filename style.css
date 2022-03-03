@@ -94,3 +94,27 @@ body {
   width: 321px;
   height: 321px;
 }
+
+@media only screen and(max-device-width:500px) {
+  body {
+    width: 100%;
+    height: 100%;
+  }
+
+  .blur-1 {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 100px;
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+  }
+
+  .img-coffee {
+  }
+}
