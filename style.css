@@ -95,7 +95,7 @@ body {
   height: 321px;
 }
 
-@media only screen and(max-device-width:500px) {
+@media (max-device-width: 500px) {
   body {
     width: 100%;
     height: 100%;
@@ -105,16 +105,38 @@ body {
     position: absolute;
     top: 0px;
     right: 0px;
-    width: 100px;
+    width: 200px;
   }
   .header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     padding: 10px;
   }
 
+  .title {
+    color: white;
+    font-family: 'Manrope';
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    line-height: 25px;
+  }
+
+  .subtitle {
+    font-family: 'manrope';
+    font-size: 40px;
+    font-weight: 700;
+    font-style: normal;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--button);
+    letter-spacing: -0.03em;
+  }
+
   .img-coffee {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
   }
 }
