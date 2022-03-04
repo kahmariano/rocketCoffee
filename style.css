@@ -213,13 +213,13 @@ body {
   .title {
     color: white;
     font-family: 'Manrope';
-    font-size: 10px;
+    font-size: 48px;
     font-weight: 700;
   }
 
   .subtitle {
     font-family: 'Manrope';
-    font-size: 10px;
+    font-size: 42px;
     font-weight: 700;
   }
 
@@ -230,13 +230,10 @@ body {
   }
   
   .blur-2 {
-    position: absolute;
-    bottom: 0px;
-    left: 80px;
+  position:absolute;
     height: 100%;
     width:100%;
-
-  
+    object-fit: cover;
   }
 
 /* @media (max-device-width: 500px) {
