@@ -20,6 +20,10 @@ body {
   background: var(--backgrond);
 }
 
+.logo-mobile {
+  display: none;
+}
+
 .blur-1 {
   position: absolute;
   top: 0px;
@@ -106,11 +110,13 @@ body {
   height: 321px;
 }
 
-@media (max-device-width: 500px) {
+/* @media (max-device-width: 500px) {
   body {
     width: 100%;
     height: 100%;
   }
+
+
 
   .blur-1 {
     display: none;
@@ -147,7 +153,7 @@ body {
     display: flex;
     align-items: center;
     text-align: center;
-    font-size: 30px;
+    font-size: 10px;
     font-weight: 700;
     font-family: 'Manrope';
     letter-spacing: 5px;
@@ -194,6 +200,7 @@ body {
   .blur-2 {
     position: absolute;
     bottom: 0;
-    width: 700px;
+    width: 100%;
   }
 }
+ */
