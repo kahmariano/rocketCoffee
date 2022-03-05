@@ -42,6 +42,9 @@ body {
 .button-menu {
   display: none;
 }
+.modal {
+  display: none;
+}
 
 .nav {
   display: flex;
