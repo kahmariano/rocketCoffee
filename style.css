@@ -73,6 +73,7 @@ body {
 .button-header:hover {
   text-decoration: pink overline;
 } /* nao esta pegando  */
+
 .main {
   display: flex;
   flex-direction: column;
@@ -171,13 +172,15 @@ body {
   }
 
   .header {
-    padding:0;
+    padding:40px ;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
   }
 
   .logo-mobile {
     display: flex;
     align-items:left;
-    width:5px;
 
   }
 
@@ -190,9 +193,12 @@ body {
   }
 
   .button-menu {
-    display: flex;
-    align-items: left;
-    width:4px;
+  display:flex;
+background-color: transparent;
+margin:0;  
+}
+  .button-header {
+    display: none;
   }
 
   .nav {
@@ -208,6 +214,21 @@ body {
     font-weight: 700;
     color: var(--text-color);
 
+  }
+
+  .main-titles {
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+  }
+
+  .text-mobile {
+    display: flex;
+    font-family: 'Manrope';
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 5px;
   }
 
   .title {
