@@ -84,6 +84,10 @@ body {
   display: none;
 }
 
+.button-pegar-cafe {
+  display: none;
+}
+
 .title {
   color: white;
   font-family: 'Manrope';
@@ -210,25 +214,29 @@ margin:0;
     text-align:center;
     justify-content: center;
     font-family: "Manrope";
-    font-size: 12px;
+    font-size: 30px;
+    letter-spacing: 5px;
     font-weight: 700;
+    margin-top: 50px;
     color: var(--text-color);
+  }
 
+  .button-pegar-cafe {
+    display: flex;
+    color: var(--text-color);
+    background-color: var(--backgrond);
+    border: solid var(--button) 1px;
+    border-radius: 0.5rem;
+    padding: 15px 35px;
+    margin-top:100px;
   }
 
   .main-titles {
+    margin-top: 100px;
     display: flex;
     flex-direction:column;
     justify-content:center;
     align-items:center;
-  }
-
-  .text-mobile {
-    display: flex;
-    font-family: 'Manrope';
-    font-size: 30px;
-    font-weight: 700;
-    letter-spacing: 5px;
   }
 
   .title {
