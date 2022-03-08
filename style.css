@@ -32,6 +32,10 @@ body {
   display: none;
 }
 
+.sidebar {
+  display: none;
+}
+
 .blur-1 {
   position: absolute;
   top: 0px;
@@ -39,9 +43,7 @@ body {
   width: 321px;
   height: 321px;
 }
-.button-menu {
-  display: none;
-}
+
 .modal {
   display: none;
 }
@@ -169,6 +171,8 @@ body {
   height: 321px;
 }
 
+/* inicio responsivo */
+
 @media (max-device-width: 500px) {
   body {
     width: 100%;
@@ -194,11 +198,20 @@ body {
     display: none;
   }
 
-  .button-menu {
+  .sidebar {
+    display: flex;
+  }
+
+  .button-open {
     display: flex;
     background-color: transparent;
     border: none;
   }
+
+  .menu {
+    display: none;
+  }
+
   .button-header {
     display: none;
   }

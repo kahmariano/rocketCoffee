@@ -1,62 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RocketCoffee</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./main.js"></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>RocketCoffee</title>
-  <link rel="stylesheet" href="style.css" />
-  <script src="./main.js"></script>
-</head>
+  <body>
+    <header class="header">
+      <img
+        class="logo-mobile"
+        src="./assets/logo-mobile.svg"
+        alt="logo-mobile"
+      />
+      <img
+        class="logo-desktop"
+        src="./assets/logo-desktop.svg"
+        alt="Logo Desktop"
+      />
+      <img
+        align="right"
+        class="blur-1"
+        src="./assets/blur-2.png"
+        alt="blur-1"
+      />
 
-<body>
-  <header class="header">
-    <img class="logo-mobile" src="./assets/logo-mobile.svg" alt="logo-mobile" />
-    <img class="logo-desktop" src="./assets/logo-desktop.svg" alt="Logo Desktop" />
-    <img align="right" class="blur-1" src="./assets/blur-2.png" alt="blur-1" />
-    <div class="sidebar">
-      <a id="logo" href=""><img src="./assets/menu-buguer-open.svg" alt="button-open" /></a>
-      <nav class="nav-mobile">
-        <ul class="menu">
-          <li><a class="nav-link" href="http://www.google.com" target="blank">Home</a></li>
-          <li><a class="nav-link" href="http://www.google.com" target="blank">Menu</a></li>
-          <li><a class="nav-link" href="http://www.google.com" target="blank">Recompensas</a></li>
-          <li> <a class="nav-link" href="http://www.google.com" target="blank">Gift Cards</a></li>
-          <li> <a class="nav-link" href="http://www.google.com" target="blank">Lojas</a></li>
-        </ul>
+      <div class="sidebar">
+        <a id="logo" href=""
+          ><img
+            class="button-open"
+            src="./assets/menu-buguer-open.svg"
+            alt="button-open"
+        /></a>
+        <nav class="nav-mobile">
+          <ul class="menu">
+            <li>
+              <a class="nav-link" href="http://www.google.com" target="blank"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a class="nav-link" href="http://www.google.com" target="blank"
+                >Menu</a
+              >
+            </li>
+            <li>
+              <a class="nav-link" href="http://www.google.com" target="blank"
+                >Recompensas</a
+              >
+            </li>
+            <li>
+              <a class="nav-link" href="http://www.google.com" target="blank"
+                >Gift Cards</a
+              >
+            </li>
+            <li>
+              <a class="nav-link" href="http://www.google.com" target="blank"
+                >Lojas</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- div do modal, ao clicar no button-menu mobile -->
+      <nav class="nav">
+        <a class="nav-link" href="http://www.google.com" target="blank">Home</a>
+        <a class="nav-link" href="http://www.google.com" target="blank">Menu</a>
+        <a class="nav-link" href="http://www.google.com" target="blank"
+          >Recompensas</a
+        >
+        <a class="nav-link" href="http://www.google.com" target="blank"
+          >Gift Cards</a
+        >
+        <a class="nav-link" href="http://www.google.com" target="blank"
+          >Lojas</a
+        >
       </nav>
-    </div>
+      <button class="button-header" type="button">
+        <strong>Pegar meu café</strong>
+      </button>
+    </header>
+    <main class="main">
+      <p class="text-mobile">
+        O café que fará seu código decolar para o próximo nível.
+      </p>
+      <button class="button-pegar-cafe" type="button">
+        <strong>Pegar meu café &gt;</strong>
+      </button>
+      <div class="main-titles">
+        <h1 class="title">Great Coffee</h1>
+        <h2 class="subtitle">&lt;Great Code&sol;&gt;</h2>
+      </div>
 
-    <!-- div do modal, ao clicar no button-menu mobile -->
-    <img class="menu-open" src="./assets/menu-buguer-open.svg" alt="menu burguer open" />
-    </button>
-    <nav class="nav">
-      <a class="nav-link" href="http://www.google.com" target="blank">Home</a>
-      <a class="nav-link" href="http://www.google.com" target="blank">Menu</a>
-      <a class="nav-link" href="http://www.google.com" target="blank">Recompensas</a>
-      <a class="nav-link" href="http://www.google.com" target="blank">Gift Cards</a>
-      <a class="nav-link" href="http://www.google.com" target="blank">Lojas</a>
-    </nav>
-    <button class="button-header" type="button">
-      <strong>Pegar meu café</strong>
-    </button>
-  </header>
-  <main class="main">
-    <p class="text-mobile">
-      O café que fará seu código decolar para o próximo nível.
-    </p>
-    <button class="button-pegar-cafe" type="button">
-      <strong>Pegar meu café &gt;</strong>
-    </button>
-    <div class="main-titles">
-      <h1 class="title">Great Coffee</h1>
-      <h2 class="subtitle">&lt;Great Code&sol;&gt;</h2>
-    </div>
-
-    <img class="img-coffee" src="./assets/Img Coffee.svg" alt="image-coffee" />
-  </main>
-  <img class="blur-2" src="./assets/blur-1.png" alt="blur-2" />
-</body>
-
+      <img
+        class="img-coffee"
+        src="./assets/Img Coffee.svg"
+        alt="image-coffee"
+      />
+    </main>
+    <img class="blur-2" src="./assets/blur-1.png" alt="blur-2" />
+  </body>
 </html>
