@@ -202,7 +202,7 @@ body {
     display: flex;
   }
 
-  .button-open {
+  #btn-primary {
     display: flex;
     background-color: transparent;
     border: none;
