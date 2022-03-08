@@ -229,12 +229,12 @@ body {
     background-color: var(--backgrond);
     border: solid var(--button) 1px;
     border-radius: 0.5rem;
-    padding: 15px 35px;
-    margin-top: 100px;
+    padding: 10px 25px;
+    margin-top: 35px;
   }
 
   .main-titles {
-    margin-top: 100px;
+    margin-top: 25px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -244,13 +244,13 @@ body {
   .title {
     color: white;
     font-family: 'Manrope';
-    font-size: 48px;
+    font-size: 38px;
     font-weight: 700;
   }
 
   .subtitle {
     font-family: 'Manrope';
-    font-size: 42px;
+    font-size: 38px;
     font-weight: 700;
   }
 
