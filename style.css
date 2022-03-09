@@ -212,7 +212,7 @@ body {
     display: none;
   }
 
-  .nav-mobile {
+  #nav-mobile.active .menu {
     display: flex;
   }
 
