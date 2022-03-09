@@ -212,6 +212,10 @@ body {
     display: none;
   }
 
+  .nav-mobile {
+    display: flex;
+  }
+
   .button-header {
     display: none;
   }
