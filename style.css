@@ -208,9 +208,9 @@ body {
     border: none;
   }
 
-  .menu {
+  /*   .menu {
     display: none;
-  }
+  } */
 
   #nav-mobile.active .menu {
     display: flex;
